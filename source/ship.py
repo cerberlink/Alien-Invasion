@@ -1,5 +1,6 @@
 import pygame as pg
 
+
 class Ship:
     """ A class to manage the ship """
 
@@ -9,11 +10,11 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
 
         # load the ship image and get its rect
-        self.image = pg.image.load(('/Users/cerberlink/Documents/EducationCS/petProjects/Alien-Invasion/src/images/ship.bmp'))
+        self.image = pg.image.load(('../source/images/ship.bmp'))
         self.rect = self.image.get_rect()
         # start each new ship at the bottom center of the screen
         self.rect.midbottom = self.screen_rect.midbottom
-    
+
     def blitme(self):
         """ Draw the ship at its current location. """
         self.screen.blit(self.image, self.rect)
