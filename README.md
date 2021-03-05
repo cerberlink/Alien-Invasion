@@ -3,7 +3,7 @@
 This would be my first 'pythonian' project since the reason I want to is improving my skills.
 
 ## Requirements and installation
-
+[PYGAME Documentation](https://www.pygame.org/docs/)
 Python version - 3.7.4
 
 pygame as required (As you can type in the terminal: `python3 -m pip install --user pygame`)
